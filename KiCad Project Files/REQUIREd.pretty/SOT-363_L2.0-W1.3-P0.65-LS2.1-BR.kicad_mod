@@ -1,0 +1,218 @@
+(footprint "SOT-363_L2.0-W1.3-P0.65-LS2.1-BR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.04 1.850001 180)
+		(layer "F.SilkS")
+		(uuid "5a62eaad-d454-4ea0-aa82-48bb91181c0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CH412K"
+		(at 0 4.650001 180)
+		(layer "F.Fab")
+		(uuid "b625bc9c-9dc7-443c-bc47-ea32dfbd8957")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/Diodes-ESD_CH412K_C89184.html"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f262e4e6-9946-49d3-a647-72fc6b884891")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2be50a24-5de1-4765-93fd-953e1c15467c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C89184"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09fe967f-4792-4133-94ef-1c0c443268da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 -1.01)
+		(end -0.7 -1.1)
+		(stroke
+			(width 0.13)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e76bcad4-752f-451e-95a2-080bb1f85291")
+	)
+	(fp_line
+		(start -0.7 1.1)
+		(end -0.7 1.02)
+		(stroke
+			(width 0.13)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6147a060-ace8-40f7-a0a2-a7eb44093fac")
+	)
+	(fp_line
+		(start 0.7 -1.1)
+		(end -0.7 -1.1)
+		(stroke
+			(width 0.13)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7974b995-35ae-4e0e-8cd9-9a50ba1acd7a")
+	)
+	(fp_line
+		(start 0.7 -1.01)
+		(end 0.7 -1.1)
+		(stroke
+			(width 0.13)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d5cff95-4c97-4451-9cb4-b3e0b5edee20")
+	)
+	(fp_line
+		(start 0.7 1.1)
+		(end -0.7 1.1)
+		(stroke
+			(width 0.13)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32f0ce22-efcf-4616-bcf5-c99436d8d7f6")
+	)
+	(fp_line
+		(start 0.7 1.1)
+		(end 0.7 1.02)
+		(stroke
+			(width 0.13)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31618451-ce0d-413a-9c2e-c7fc6d18752b")
+	)
+	(fp_circle
+		(center 1.02 1.27)
+		(end 1.15 1.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "34d761cf-1ef4-499b-a848-ccf325b563db")
+	)
+	(fp_circle
+		(center 1.27 0.63)
+		(end 1.4 0.63)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "104f635c-9c5d-4fe3-8f2f-10e84298541e")
+	)
+	(fp_circle
+		(center 1.03 0.97)
+		(end 1.06 0.97)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b1b227df-6ef2-47c7-be54-ff94107728de")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "6a433a19-ef5e-4b73-a255-06410a41f5b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.9 0.65 90)
+		(size 0.4 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "047c3101-a2b2-4c62-9308-64a0f565b217")
+	)
+	(pad "2" smd rect
+		(at 0.9 0 90)
+		(size 0.4 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2682caed-6a64-43e9-8929-fe5fd55e0ad1")
+	)
+	(pad "3" smd rect
+		(at 0.9 -0.65 90)
+		(size 0.4 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9bad8e38-4d27-40ee-93bb-7df5e1b21472")
+	)
+	(pad "4" smd rect
+		(at -0.9 -0.65 90)
+		(size 0.4 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "60ad3044-0a6a-4c55-8608-442c0decf00d")
+	)
+	(pad "5" smd rect
+		(at -0.9 0 90)
+		(size 0.4 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7c242b6a-cda7-46db-a789-169fb8dc0ae9")
+	)
+	(pad "6" smd rect
+		(at -0.9 0.65 90)
+		(size 0.4 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e25e7cd2-7650-4868-8ac9-f0654c131005")
+	)
+	(embedded_fonts no)
+	(model "${EASYEDA2KICAD}/SOT-363-6P_L2.0-W1.3-H1.1-LS2.0-P0.65.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)
