@@ -11,11 +11,11 @@
 
 # About project
 
-spark-debug is simple CH347T based USB debugger and programmer.
+spark-debug is simple CH347T based USB debugger and programmer supporting I2C, SPI and UART.
 
 ## Motivation for the project
 
-spark-debug was created from need for both SPI programmer and UART debugger for my other project, spark-nas
+spark-debug was created from need for both SPI programmer and UART debugger for my other project, spark-nas.
 
 ## Humorous additions
 
@@ -24,6 +24,10 @@ I added 2 humorous silkscreen text as this project lacks personality without the
 ## Pin tables
 
 Pin tables on PCB's silkscreen are named based on IC pins, not on desired connection on it. This means that TX UART pin should be plugged to RX of debugged device etc.
+
+## Usage
+
+CH347T is set in mode which requires vendor drivers to function properly. [These drivers](https://www.wch-ic.com/downloads/CH343SER_ZIP.html) should work for Windows UART interface and [these drivers](https://www.wch-ic.com/downloads/CH341PAR_ZIP.html) should work for Windows SPI and I2C interface. For linux, i found [this repo by aystarik](https://github.com/aystarik/ch347_vcp) that provides kernel drivers for VCP protocol used by CH347T. Drivers will be tested when device will be built.
 
 ## Directory overview
 
@@ -37,7 +41,7 @@ Pin tables on PCB's silkscreen are named based on IC pins, not on desired connec
 
 ## Features
 
-- UART, I2C and SPI ports
+- UART, I2C and SPI interfaces running at 3.3V
 - USB-A plug
 - Integrated 3.3V LDO
 
