@@ -1,0 +1,13 @@
+Name,Purpose,Cost per unit,Amount,Total,Link,Distributor
+FOJAN FRC0603J472 TS,4.7 kOhm strap resistor (100 is minimal order),0.001 USD,100,0.10 USD,https://www.lcsc.com/product-detail/C2907166.html,LCSC
+Samsung Electro-Mechanics CL10A106KP8NNNC,10uF decoupling capacitor (50 is minimal order),0.0065 USD,50,0.33 USD,https://www.lcsc.com/product-detail/C19702.html,LCSC
+HRE CGA0603X7R104K500JT,100nF decoupling capacitor (100 is minimal order),0.0023 USD,100,0.23 USD,https://www.lcsc.com/product-detail/C6119867.html,LCSC
+Littelfuse SMBJ5.0A,TVS Diode for VBUS trace (5 is minimal order),0.10 USD,5,0.49 USD,https://www.lcsc.com/product-detail/C83333.html,LCSC
+WCH CH412K,TVS Diode for data traces,0.66 USD,1,0.66 USD,https://www.lcsc.com/product-detail/C89184.html?s_z=n_CH412K,LCSC
+MOLEX 480370001,USB Plug,0.90 USD,1,0.90 USD,https://www.lcsc.com/product-detail/C136455.html,LCSC
+UMW AMS1117-3.3,3.3V LDO (10 is minimal order),0.04 USD,10,0.37 USD,https://www.lcsc.com/product-detail/C347222.html,LCSC
+SCTF SX3M8.000B10F20TNN,Oscilator for internal clock,0.47 USD,1,0.47 USD,https://www.lcsc.com/product-detail/C5452681.html,LCSC
+WCH CH347T,Translating interfaces to USB,3.31 USD,1,3.31 US,Dhttps://www.lcsc.com/product-detail/C5122332.html,LCSC
+PCB,Printed Circuit Board for project (5 is minimal order),1.42 USD,5,7.10 USD,https://www.jlpcpb.com/,JLCPCB
+Shipping,JLCPCB + LCSC shipping cost combined,N/A,N/A,13.03 USD,N/A,Global Direct Standard Line
+Total,N/A,N/A,N/A,18.37 USD,N/A,N/A
