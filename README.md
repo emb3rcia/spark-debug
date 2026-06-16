@@ -1,4 +1,7 @@
 # spark-debug
+
+# PROJECT DOESNT WORK DUE TO UNKNOWN REASONS, DONT REPLICATE RIGHT NOW
+
 # Navigation
 - [About project](#about-project)
   - [Motivation for the project](#motivation-for-the-project)
